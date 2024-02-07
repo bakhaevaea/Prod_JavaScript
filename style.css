@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .btn{
+    border-radius: 0.5rem;
+    font-size: 15px;
+    cursor: pointer;
+    background:#9c9a9a;
+  }
+
+  .btn:hover{
+    background:#fcfafa;
+  }
+
+  textarea{
+    width: 200px; 
+    height: 64px;
+  }
+
+  .viewContainer{
+    margin-top: 50px;
+  }
+
+  .link_prod{
+    text-decoration: none;
+  }
+
+  li{
+    margin-top: 20px;
+  }

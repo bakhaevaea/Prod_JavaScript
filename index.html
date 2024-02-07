@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class = addContainer>
+        <h1>Добавление отзыва</h1>
+        <label for="name_prod">Название продукта:</label>
+        <input type="text" id="name_prod" placeholder=" ">
+        <p></p>
+        <label for="text_review">Ваш отзыв:</label>
+        <textarea id="text_review" placeholder=""></textarea>
+        <p></p>
+        <button class = "btn" id="add_review_btn" >Добавить отзыв</button>
+    </div>
+    <div class = viewContainer >
+        <button class = "btn" id="view_review_btn" >Просмотреть продукты с отзывами</button>
+        <h2 id = "reviews_for_product"></h2>
+        <ul id="products">
+        </ul>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
